@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.Dibyanshu.LearningBasic;
+package com.Dibyanshu.Basic;
 
 /**
  * 

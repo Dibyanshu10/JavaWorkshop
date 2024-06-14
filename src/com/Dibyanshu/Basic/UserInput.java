@@ -25,6 +25,8 @@ public class UserInput {
 		System.out.println("Hello, "+name+" !!");
 		System.out.println("You are "+age+" !!");
 		System.out.println("Your City is "+city+" !!");
+		
+		keyInput.close();
 
 	}
 

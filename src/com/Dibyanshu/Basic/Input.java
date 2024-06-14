@@ -18,7 +18,8 @@ public class Input {
 		
 		System.out.println("Entered City is "+ city);
 		System.out.println("Entered Number multiplied by 2 is "+num);
-				
+		
+		sc.close();
 
 	}
 

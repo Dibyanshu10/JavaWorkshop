@@ -47,6 +47,8 @@ public class MadLibsClone {
 		System.out.println("There was a "+adj1+" girl name "+girl+", who was a "+adj2+" "+occ1+" in the kingdom of "+place+". "
 				+ "She Loved to wear "+cloth+" and to "+hobby+". She wanted to marry the "+ adj3+ " "+occ2+" named "+ boy+
 				" but her father, king "+man+ " forbid her from seeing him.");
+		
+		sc.close();
 
 	}
 

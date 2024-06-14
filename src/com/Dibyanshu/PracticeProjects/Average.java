@@ -25,6 +25,8 @@ public class Average {
 		double avg = (num1+num2+num3)/3;
 		
 		System.out.println("Average of entered number is : "+avg);
+		
+		sc.close();
 
 	}
 

@@ -17,6 +17,7 @@ public class EvenNumbers {
 			{
 				System.out.print(i+", ");
 			}
-		}	
-	}
+		}
+		sc.close();
+	}//end main
 }

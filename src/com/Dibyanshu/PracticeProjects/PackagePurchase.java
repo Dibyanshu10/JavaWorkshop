@@ -95,7 +95,8 @@ public class PackagePurchase {
 		{
 			System.out.println("Please select a valid package !!");
 		}
+		sc.close();
 
-	}
+	}// end main
 
 }

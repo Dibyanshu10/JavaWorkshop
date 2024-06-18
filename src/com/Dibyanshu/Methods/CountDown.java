@@ -6,7 +6,7 @@ public class CountDown {
 		// TODO Auto-generated method stub
 		
 		CountDownFrom(10);
-		System.out.println("\n");//for line change
+		System.out.println("");//for line change
 		CountUpTo(1,10);
 
 	}// end main

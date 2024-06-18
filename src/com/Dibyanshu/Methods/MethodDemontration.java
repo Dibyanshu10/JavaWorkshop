@@ -42,7 +42,7 @@ public class MethodDemontration {
 	}
 	
 	//void, parameterized method
-	public static void printNum(int a) //parameter a is passed
+	public static void printNum(int a) //parameter 'a' is passed
 	{
 		System.out.println("Number multiplied by 2 is : "+a*2);
 	}
@@ -54,7 +54,7 @@ public class MethodDemontration {
 	}
 	
 	//value returning, parameterized
-	public static int returnSum(int a, int b)
+	public static int returnSum(int a, int b) // Two parameters 'a' & 'b' are passed
 	{
 		int sum = a+b;
 		return sum;

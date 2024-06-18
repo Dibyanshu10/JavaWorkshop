@@ -9,7 +9,7 @@ public class NamePermutation {
 		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Welcome to Name permutation !!");
+		System.out.println("Welcome to Name permutation !!"); 
 		
 		System.out.print("Enter the number of user data you want log : ");
 		int n =sc.nextInt();// does not consume the next line character

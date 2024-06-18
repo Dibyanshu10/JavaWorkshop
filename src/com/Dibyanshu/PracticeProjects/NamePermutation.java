@@ -32,6 +32,7 @@ public class NamePermutation {
 				}
 				else
 				{
+					//in case where user has only entered his first name
 					firstName.add(name);
 					lastName.add("");
 				}

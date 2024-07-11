@@ -38,9 +38,9 @@ public class Sort {
 			}
 		}
 		System.out.println("Sorted input values :");
-		for(int i = 0; i<ar.length; i++)
+		for(int number : ar)
 		{
-			System.out.println(ar[i]);
+			System.out.println(number);
 		}
 		sc.close();
 				

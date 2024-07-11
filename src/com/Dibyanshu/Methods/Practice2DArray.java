@@ -31,6 +31,7 @@ public class Practice2DArray {
 		}
 		printArray(ar);
 		
+		sc.close();
 
 	}// end main
 	

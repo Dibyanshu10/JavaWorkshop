@@ -1,5 +1,7 @@
 package com.Dibyanshu.Stream;
 
+import java.util.function.Predicate;
+
 @FunctionalInterface
 interface Demo
 {
@@ -13,7 +15,7 @@ interface Demo
 //		System.out.println("This is Test which implements Demo (Functional Interface)");
 //	}
 //}
-public class LambdaExpression {
+public class LambdaExpression extends Object {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,6 +24,10 @@ public class LambdaExpression {
 		
 		Demo obj =() -> System.out.println("This is Test which implements Demo (Functional Interface) !!");
 		obj.display();
+		
+        int n = 10;
+        Predicate<Integer> isEven = num -> num % 2 == 0;
+        System.out.println(isEven.test(n) ? "Even Number" : "Odd Number");
 				
 	}
 

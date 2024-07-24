@@ -13,7 +13,7 @@ public class CountDown {
 	
 	public static void CountDownFrom(int n)
 	{
-		if(n>=0) {
+		if(n>0) {
 			System.out.print(n+" ");
 			CountDownFrom(n-1);
 		}

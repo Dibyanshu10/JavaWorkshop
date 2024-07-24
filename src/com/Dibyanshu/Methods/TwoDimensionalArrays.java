@@ -13,6 +13,10 @@ public class TwoDimensionalArrays {
 		System.out.println("Printing the actual array :");
 		print2DArray(arr);
 		System.out.println();
+		System.out.println("Printing the sum of elements of the array :");
+		int aSum = arraySum(arr);
+		System.out.println(aSum);
+		System.out.println();
 		System.out.println("Printing doubling the value of each element of array :");
 		twice2DArray(arr);
 		print2DArray(arr);
@@ -44,6 +48,16 @@ public class TwoDimensionalArrays {
 				arr1[i][j] = arr1[i][j] * 2;
 			}
 		}
+	}
+	
+	public static int arraySum(int[][] ar) {
+		int sum = 0;
+		for(int i = 0; i<ar.length; i++) {
+			for(int j = 0; j<ar[i].length; j++) {
+				sum = sum + ar[i][j];
+			}
+		}
+		return sum;
 	}
 
 }
